@@ -3,7 +3,7 @@ import propTypes from 'prop-types'
 
 class Hero extends Component {
   render() {
-    <div class={this.props.class_name}>Welcome to {this.props.title} Hero Component</div>;
+    <div className={this.props.class_name}>Welcome to {this.props.title} Hero Component</div>;
   }
 }
 
