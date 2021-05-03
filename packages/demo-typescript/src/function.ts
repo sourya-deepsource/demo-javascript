@@ -3,7 +3,7 @@ class defaultParamLast {
         this.a = a
         this.b = b
     }
-    sum(a: number = 0,b: number ){
+    sum(a = 0,b: number ){
 
         return a + b
 
