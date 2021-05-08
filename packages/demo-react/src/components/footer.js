@@ -3,7 +3,7 @@ import propTypes from 'prop-types'
 
 class Footer extends Component {
   render() {
-    <div class={this.props.class_name}>Footer Component is {this.props.title}</div>;
+    <div className={this.props.class_name}>Footer Component is {this.props.title}</div>;
   }
 }
 
